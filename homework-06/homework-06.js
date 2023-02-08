@@ -57,6 +57,6 @@ console.log(arr2);
 
 // 6. Дан массив [3, 4, 1, 2, 7]. Отсортируйте его.
 
-let arr3 = [3, 4, 1, 2, 7];
-arr3.sort();
+let arr3 = [3, 4, 1, 2, 7, 10, 20, 30];
+arr3.sort((a,b) => a-b);
 console.log(arr3);
